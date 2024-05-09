@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import handlebars from 'vite-plugin-handlebars'
 
 export default defineConfig({
+  base: '/vite-multipages-handlebars/',
   build: {
     rollupOptions: {
       input: {
