@@ -12,6 +12,7 @@ export default defineConfig({
         contact: resolve(__dirname, 'contact.html'),
       },
     },
+    assetsInlineLimit: 0,
   },
   plugins: [
     handlebars({
